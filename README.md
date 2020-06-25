@@ -18,7 +18,26 @@ payload:
 }
 ```
 
-Password is encrypt.
+Password is encrypt by RSA algorithm.
+
+   Get public key
+
+   GET tplogin.cn/pc/Content.htm
+
+   response: 
+
+   ```json
+   {
+     "data": {
+       "group": 0,
+       "encrypt_type": 1,
+       "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCoVBwJv2pBtrr9ZY9C4lgqNo5+dFI+3A6W80h+8CzpCxsgl8Dic7JYmcTfOrtYtYJ6Vma3ZWx+NK1bJk8DFipOnDewVVJ6wmucnryF3OlfcIjLZsYjh4Sq2mdZfg0lOThTvh8z4V2jO6fWh91iwOOeCokGoMw9V+QyQevtCr5pSQIDAQAB",
+       "code": -40407
+     },
+     "error_code": -40401
+   }
+   ```
+
 
 response
 
