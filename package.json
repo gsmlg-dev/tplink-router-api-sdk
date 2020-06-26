@@ -1,0 +1,13 @@
+{
+  "name": "tplink-router-api-sdk",
+  "version": "1.0.0",
+  "description": "control tplink cloud router",
+  "main": "lib/index.js",
+  "repository": "git@github.com:GSMIoT-com/tplink-router-api-sdk.git",
+  "author": "gsmlg <me@gsmlg.org>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "node-jsencrypt": "^1.0.0"
+  }
+}
